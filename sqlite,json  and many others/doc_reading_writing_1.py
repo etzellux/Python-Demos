@@ -1,0 +1,6 @@
+f = open("doc_read_write.twt","w")
+f.write("Hello There!\n")
+f.close()
+f = open("doc_read_write.twt","r")
+print(f.read())
+f.close()
